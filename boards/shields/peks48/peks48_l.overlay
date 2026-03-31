@@ -1,11 +1,3 @@
 #include "peks48.dtsi"
 
-/ {
-    aliases {
-        led-red = &led_red;
-        led-green = &led_green;
-        led-blue = &led_blue;
-    };
-};
-
 &xiao_serial { status = "disabled"; };
