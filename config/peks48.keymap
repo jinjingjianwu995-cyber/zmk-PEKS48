@@ -61,10 +61,10 @@
 
         layer_2 {
             bindings = <
-&trans  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp POUND  &kp DOLLAR  &kp PERCENT    &kp SQT        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS           &kp TILDE  &trans
-&trans  &trans           &trans             &trans     &trans      &trans         &kp AT_SIGN    &kp LEFT_BRACKET      &kp SINGLE_QUOTE       &kp RS(UNDERSCORE)  &trans     &trans
-&trans  &trans           &trans             &trans     &trans      &trans         &kp SEMICOLON  &kp COLON             &trans                 &trans              &trans     &trans
-&trans  &trans           &trans             &trans     &trans      &trans         &trans         &trans                &trans                 &trans              &trans     &trans
+&trans  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp POUND  &kp DOLLAR  &kp PERCENT    &kp SQT        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp TILDE  &trans
+&trans  &trans           &trans             &trans     &trans      &trans         &kp AT_SIGN    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDERSCORE  &trans     &trans
+&trans  &trans           &trans             &trans     &trans      &trans         &kp SEMICOLON  &kp COLON             &trans                 &trans          &trans     &trans
+&trans  &trans           &trans             &trans     &trans      &trans         &trans         &trans                &trans                 &trans          &trans     &trans
             >;
         };
 
