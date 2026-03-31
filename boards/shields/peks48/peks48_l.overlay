@@ -1,7 +1,11 @@
 #include "peks48.dtsi"
-aliases {
+
+/ {
+    aliases {
         led-red = &led_red_node;    // 実際のLEDノード名に合わせる
         led-green = &led_green_node; 
         led-blue = &led_blue_node;
     };
+};
+
 &xiao_serial { status = "disabled"; };
