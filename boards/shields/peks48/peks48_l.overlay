@@ -2,9 +2,9 @@
 
 / {
     aliases {
-        led-red = &led_red_node;    // 実際のLEDノード名に合わせる
-        led-green = &led_green_node; 
-        led-blue = &led_blue_node;
+        led-red = &led_red;
+        led-green = &led_green;
+        led-blue = &led_blue;
     };
 };
 
