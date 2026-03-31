@@ -1,14 +1,6 @@
 #include "peks48.dtsi"
 #include <input/processors.dtsi>
 
-/ {
-    aliases {
-        led-red = &led_red_node;    // ※実際のLEDノード名に合わせる必要があります
-        led-green = &led_green_node; 
-        led-blue = &led_blue_node;
-    };
-};
-
 &default_transform {
     col-offset = <6>;
 };
