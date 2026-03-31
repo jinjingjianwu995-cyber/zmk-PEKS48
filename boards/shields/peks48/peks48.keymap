@@ -38,6 +38,13 @@
 
 / {
 
+   /* ここにエイリアスを追加 */
+    aliases {
+        led-red = &led0;   // もし赤色がled0という名前なら
+        led-green = &led1; // 緑色がled1なら
+        led-blue = &led2;  // 青色がled2なら
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
